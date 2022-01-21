@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02:  'Mochiy Pop P One', sans-serif;
+    --font03:  'Dancing Script', cursive;
+
+}
+ html , body  {
+    height: 100vh;
+    background-color:lightgray;
+    font-family: var(--font01);
+}
+
+header {
+    
+    background-image: linear-gradient(to bottom, #0a0a6efd ,
+    #1c1c447c);
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding:50px 50px 20px ;
+    font-size:8vh;
+    font-variant: small-caps;
+    font-family: var(--font02);
+}
+header >p {
+    padding-bottom: 60px;
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left:30px;
+    font-family: var(--font03);
+    font-size:3.5vh;
+    font-weight: 600;
+    line-height: 2em;
+   
+
+}
+section.normal {
+    background-color:white;
+    color: black;
+ }  
+
+section >p{
+    padding: 1em;
+}
+
+
+
+section.imagem {
+    background-color:rgba(0, 0, 0, 0.507);
+    color:white;
+    box-shadow:inset 6px 6px 13px rgba(0, 0, 0, 0.521);
+    background-attachment: fixed;
+   
+}
+section.imagem > p {
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.062);
+    padding:5px;
+    text-shadow: 5px 5px 5px black;
+    
+
+}
+
+section#img01 {
+    background-image:url(../imagens/48465.png);
+    background-position: center center;
+    background-size: cover;
+}
+section#img02 {
+    background-image:url(../imagens/WEB3-CROSS-SUNRISE-SUN-RAY-LIGHT-JESUS-shutterstock_366834113.jpg);
+    background-position:  top center;
+    background-size: cover;
+
+}
+
+a {
+    color:white ;
+    text-decoration:none;
+}
+    
+a > p{
+    color:white;
+   
+ 
+}
+
+footer {
+    background-color:#0a0a6efd;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
